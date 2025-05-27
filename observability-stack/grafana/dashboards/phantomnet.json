@@ -1,0 +1,16 @@
+{
+  "dashboard": {
+    "title": "PhantomNet Overview",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Node TPS",
+        "targets": [
+          {
+            "expr": "phantomnet_node_tps"
+          }
+        ]
+      }
+    ]
+  }
+}

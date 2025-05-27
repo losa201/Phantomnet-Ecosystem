@@ -1,0 +1,4 @@
+apiVersion: v2
+name: phantomnet
+version: 1.0.0
+description: Helm chart for the PhantomNet ecosystem (operator, dashboard, observability)

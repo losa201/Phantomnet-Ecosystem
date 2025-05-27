@@ -1,0 +1,6 @@
+operator:
+  image: ghcr.io/YOUR_ORG/phantomnet-operator:latest
+dashboard:
+  image: ghcr.io/YOUR_ORG/phantomnet-dashboard:latest
+observability:
+  enabled: true
