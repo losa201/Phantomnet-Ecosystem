@@ -1,7 +1,17 @@
+<<<<<<< HEAD
+=======
+import ZkTangleGraph from './components/ZkTangleGraph';
+import RecentVotes from './components/RecentVotes';
+import AutopilotPolicyViewer from './components/AutopilotPolicyViewer';
+>>>>>>> 1ca2900 (🧠 Initial refined push — 2025-05-28 13:28:07)
 import React from 'react';
 import { usePhantomNetStream } from './hooks/usePhantomNetStream';
 
 export default function App() {
+<<<<<<< HEAD
+=======
+  // 📡 Autopilot viewer rendered below
+>>>>>>> 1ca2900 (🧠 Initial refined push — 2025-05-28 13:28:07)
   const nodes = usePhantomNetStream();
   return (
     <div className="min-h-screen bg-gray-950 text-white p-4">
@@ -13,6 +23,11 @@ export default function App() {
           </li>
         ))}
       </ul>
+<<<<<<< HEAD
     </div>
+=======
+      <AutopilotPolicyViewer />
+</div>
+>>>>>>> 1ca2900 (🧠 Initial refined push — 2025-05-28 13:28:07)
   );
 }

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import { reconcileAutopilotPolicies } from './controllers/autopilot';
+>>>>>>> 1ca2900 (🧠 Initial refined push — 2025-05-28 13:28:07)
 import { KubeConfig, AppsV1Api, CustomObjectsApi } from '@kubernetes/client-node';
 import express from 'express';
 import { applyZeroTrustPolicies } from './security/policy';
@@ -21,4 +25,13 @@ async function main() {
 main().catch(err => {
   console.error('[PhantomNet Operator] Fatal error:', err);
   process.exit(1);
+<<<<<<< HEAD
 });
+=======
+});
+
+// ⏱️ Autopilot scheduler
+setInterval(() => {
+  reconcileAutopilotPolicies(customObjectsApi, k8sAppsApi).catch(console.error);
+}, 15000);
+>>>>>>> 1ca2900 (🧠 Initial refined push — 2025-05-28 13:28:07)

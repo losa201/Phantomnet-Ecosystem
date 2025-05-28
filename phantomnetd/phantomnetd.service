@@ -1,0 +1,13 @@
+[Unit]
+Description=PhantomNet Daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/phantomnetd
+WorkingDirectory=/opt/phantomnetd
+Restart=on-failure
+RestartSec=5s
+Environment=RUST_LOG=info
+
+[Install]
+WantedBy=multi-user.target

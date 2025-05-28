@@ -1,0 +1,23 @@
+[package]
+name = "backup_tomls"
+version = "0.1.0"
+edition = "2021"
+
+[package]
+name = "backup_tomls"
+version = "0.1.0"
+edition = "2021"
+
+[package]
+name = "backup_tomls"
+version = "0.1.0"
+edition = "2021"
+
+[package]
+
+[workspace]
+  "phantomnetctl",
+  "phantomnetd",
+  "phantomnet-node",
+  "phantomnet-bridge",
+. = { path = ".." }

@@ -3,4 +3,11 @@ operator:
 dashboard:
   image: ghcr.io/YOUR_ORG/phantomnet-dashboard:latest
 observability:
+<<<<<<< HEAD
   enabled: true
+=======
+  enabled: true
+
+prometheus:
+  url: http://prometheus.phantomnet.svc:9090
+>>>>>>> 1ca2900 (🧠 Initial refined push — 2025-05-28 13:28:07)

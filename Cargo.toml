@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+  "phantomnet-bridge",
+  "phantomnetctl",
+  "phantomnetd",
+  "phantomnet-node",
+  "phantomnet-zk",
+  "rollup-dag",
+  "edr",
+  "solidity-analyzer"
+]
