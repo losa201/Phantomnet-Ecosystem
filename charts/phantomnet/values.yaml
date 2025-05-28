@@ -1,0 +1,9 @@
+operator:
+  image: ghcr.io/YOUR_ORG/phantomnet-operator:latest
+dashboard:
+  image: ghcr.io/YOUR_ORG/phantomnet-dashboard:latest
+observability:
+  enabled: true
+
+prometheus:
+  url: http://prometheus.phantomnet.svc:9090
