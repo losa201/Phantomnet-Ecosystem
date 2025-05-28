@@ -1,0 +1,22 @@
+# Rust
+/target
+**/*.rs.bk
+
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# OS crap
+.DS_Store
+*.swp
+
+# Termux & Misc
+*.zip
+*.tar.gz
+*.apk
